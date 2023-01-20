@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shows</title>
+    </head>
+    <body>
+        <h2>IMDB: Top 5 Episodes</h2>
+        <table width="100%", border="solid" >
+          <tr th:object=${first}>
+            <th th:text=*{title}></th>
+            <th th:text=*{episode}></th>
+            <th th:text=*{rating}></th>
+          </tr>
+          <tr th:object=${second}>
+            <th th:text=*{title}></th>
+            <th th:text=*{episode}></th>
+            <th th:text=*{rating}></th>
+          </tr>
+          <tr th:object=${third}>
+            <th th:text=*{title}></th>
+            <th th:text=*{episode}></th>
+            <th th:text=*{rating}></th>
+          </tr>
+          <tr th:object=${fourth}>
+            <th th:text=*{title}></th>
+            <th th:text=*{episode}></th>
+            <th th:text=*{rating}></th>
+          </tr>
+          <tr th:object=${fifth}>
+            <th th:text=*{title}></th>
+            <th th:text=*{episode}></th>
+            <th th:text=*{rating}></th>
+          </tr>
+        </table>        
+    </body>
+</html>
